@@ -34,3 +34,13 @@ const membri = [
         'immagine': 'barbara-ramos-graphic-designer.jpg'
     }
 ]
+
+// Stampa su console tutte le informazioni per ogni membro
+for(let i=0; i < membri.length; i++){
+
+    console.log("NOME= "+membri[i].nome,"RUOLO= "+membri[i].ruolo,"IMMAGINE= "+membri[i].immagine);
+}
+
+
+
+
