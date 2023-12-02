@@ -41,3 +41,7 @@ for(let key in membri){
     console.log(key, membri[key]);
 }
 
+// Stampa su Dom tutte le informazioni per ogni membro
+
+document.getElementById("informazioni").innerHTML= "Nome= " + membri[0].nome + "<br> Ruolo= " + membri[0].ruolo + "<br> Immagine= " + membri[0].immagine +
+"<br><br> Nome= " + membri[1].nome + "<br> Ruolo= " + membri[1].ruolo + "<br> Immagine= " + membri[1].immagine + "<br><br> Nome= " + membri[2].nome + "<br> Ruolo= " + membri[2].ruolo + "<br> Immagine= " + membri[2].immagine + "<br><br> Nome= " + membri[3].nome + "<br> Ruolo= " + membri[3].ruolo + "<br> Immagine= " + membri[3].immagine + "<br><br> Nome= " + membri[4].nome + "<br> Ruolo= " + membri[4].ruolo + "<br> Immagine= " + membri[4].immagine + "<br><br> Nome= " + membri[5].nome + "<br> Ruolo= " + membri[5].ruolo + "<br> Immagine= " + membri[5].immagine;
